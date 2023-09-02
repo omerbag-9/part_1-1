@@ -1,0 +1,45 @@
+/* 3.4 offer service */
+/* .offer{
+
+} */
+
+.offer-content{
+    overflow: hidden;
+}
+
+
+.offer-item{
+    width: 30%;
+    float: left;
+    border: 1px solid #e8e8e8;
+    padding: 30px 15px 30px 70px;
+    position: relative;
+}
+
+.offer-item.mg{
+    margin: 0 5%;
+}
+
+.offer-item .icon{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+    color: var(--maincolor);
+}
+
+.offer-item-titel{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.5s;
+}
+
+.offer-item-description{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: var(--graycolor);
+}
+
+.offer-item:hover .offer-item-titel{
+    color: var(--whitecolor);
+}

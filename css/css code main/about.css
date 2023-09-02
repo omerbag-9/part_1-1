@@ -1,0 +1,43 @@
+/* 3.2 about */
+
+/* .about{
+    
+}
+.about-content{
+
+} */
+
+.about-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    padding: 50px 20px;
+}
+
+.about-item:hover .about-item-title{
+    color: white;
+}
+
+.about-item.mg{
+    margin: 0 5%;
+}
+
+.about-item .icon{
+    color: var(--maincolor);
+}
+
+.about-item-title{
+    text-transform: capitalize;
+    transition: color 0.5s;
+}
+
+.about-item-description{
+    line-height: 1.6;
+    font-size: 17;
+    color: #899999;
+}
+.about-item-link{
+    color: var(--maincolor);
+    text-transform: capitalize;
+}

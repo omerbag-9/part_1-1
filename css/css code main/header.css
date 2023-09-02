@@ -1,0 +1,94 @@
+/* 3.0 header */
+.header{
+    /* background-color: grey; */
+    position: fixed; /*el position(fixed,absolute) by7wlo al 3onsor mn block l inline-block*/
+    width: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+}
+
+/* .header-content{
+     overflow: hidden;   /* lw 3aml drop down w overflow hidden al drop down msh htzhr*/
+
+
+.header .logo{
+    width: 40%;
+    /* background-color: red; */
+    float: left;
+}
+
+ .header .logo img{
+    width: 20%;
+    margin-top: 15px;
+} 
+
+.header .nav{
+    width: 60%;
+    /* background-color:blue; */
+    float: left;
+    text-align: right;
+}
+
+.header .nav > li{
+ display: inline-block;
+/* width: 75px; */
+text-align: right;
+margin-top: 22px;
+}
+
+.header .nav > li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px; /*hn3ml padding L a msh li 3hsan msa7et al a kolaha tb2a clickable msh al 7rof bs (ux)*/
+    display: block;
+    font-size: 16px;
+}
+
+.header .nav > li > a::after,
+.header .nav > li > a.active::after{
+    content: "";
+    display: block;
+    /* width: 0%; */
+    height: 3px;
+    background-color: var(--maincolor);
+    transition: width 0.5s;
+    margin-top: 2px;
+}
+.header .nav > li > a.active::after{
+    width: 100%;
+}
+.header .nav > li > a::after{
+    width: 0%;
+}
+.header .nav > li > a:hover::after{
+    width: 100%;
+
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: #8cb2ff;
+    text-align: center;
+    width: 150px;
+    list-style-type: none;
+    color: white;
+    left: -50%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s;
+}
+.dropdown-menu a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}

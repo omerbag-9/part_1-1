@@ -1,0 +1,33 @@
+/* 3.5 numbers */
+.number{
+    position: relative;
+    background-image: url(./images/background/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;  /* 3shan a3ml t2ser ama ascroll tnzl al sora w ttl3 */
+    height: 300px;
+}
+
+.numbers-items{
+    padding: 120px 0;
+}
+.number-item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.number-item .icon{
+    color: var(--maincolor);
+    margin-bottom: 15px;
+}
+
+.number-item-title{
+    font-weight: bold;
+    color: var(--whitecolor);
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.number-item-text{
+    color: var(--whitecolor);
+    text-transform: capitalize;
+}
